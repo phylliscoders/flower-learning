@@ -20,7 +20,7 @@ def get_elements(selector):
 
     '''
     soup = BeautifulSoup(text, "html.parser")
-    elements = soup.select(".mw-category-group > ul > li > a")
+    elements = soup.select(selector)
     return elements
 
 if __name__ == '__main__':
