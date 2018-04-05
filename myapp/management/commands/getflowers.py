@@ -51,7 +51,7 @@ class Command(BaseCommand):
 
             # 이미 등록된 꽃이면 continue
             if flower_name in flower_list:
-                print(str(i) + ') ' + flower_name + ' is Already Exist')
+                print(str(i) + ') ' + flower_name + ' It already exists')
                 continue
 
             flower_obj = Flower(name=flower_name)
