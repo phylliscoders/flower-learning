@@ -34,5 +34,3 @@ if __name__ == '__main__':
     for element in elements:
         # 꽃 이름을 화면에 출력한다.
         print(element.get_text())
-
-
