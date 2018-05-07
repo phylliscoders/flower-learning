@@ -80,3 +80,11 @@ fabric.properties
 
 
 # End of https://www.gitignore.io/api/django,pycharm
+.idea/deployment.xml
+.idea/misc.xml
+.idea/mysite.iml
+.idea/modules.xml
+.idea/vcs.xml
+myapp/migrations/0001_initial.py
+myapp/migrations/0003_auto_20180405_1520.py
+myapp/migrations/0002_auto_20180405_1510.py
